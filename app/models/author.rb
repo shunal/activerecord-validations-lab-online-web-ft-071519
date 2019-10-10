@@ -1,3 +1,3 @@
 class Author < ActiveRecord::Base
-  validates :name, length:
+  validates :name, length: {minimum}
 end
